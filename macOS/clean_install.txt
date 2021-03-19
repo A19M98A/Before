@@ -1,0 +1,13 @@
+[ ] save phone number for veryfiy acant
+[ ] extract seting (terminal, vim, and ...)
+[ ] download mac os file(https://apps.apple.com/us/app/macos-big-sur/id1526878132?mt=12)
+[ ] Use the 'createinstallmedia' command in Terminal
+	[ ] Connect the USB flash drive or other volume that you're using for the bootable installer.
+	[ ] Open Terminal, which is in the Utilities folder of your Applications folder.
+	[ ] Type or paste one of the following commands in Terminal. These assume that the installer is in your Applications folder, and MyVolume is the name of the USB flash drive or other volume you're using. If it has a different name, replace MyVolume in these commands with the name of your volume.
+	[ ] Big Sur: sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+	    Catalina: sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+	    Mojave: sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+	    High Sierra: sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
+	    El Capitan: sudo /Applications/Install\ OS\ X\ El\ Capitan.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume --applicationpath /Applications/Install\ OS\ X\ El\ Capitan.app
+
